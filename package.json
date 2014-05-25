@@ -1,0 +1,30 @@
+{
+  "name": "metacpan",
+  "version": "0.0.0",
+  "description": "Interface to metacpan / to CPAN",
+  "main": "lib/metacpan.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radubogdan/node-metacpan.git"
+  },
+  "keywords": [
+    "metacpan",
+    "cpan",
+    "perl"
+  ],
+  "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radubogdan/node-metacpan/issues"
+  },
+  "homepage": "https://github.com/radubogdan/node-metacpan",
+  "dependencies": {
+    "request": "*"
+  }
+}
